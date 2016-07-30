@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>TheLorean</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/forms.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container panel">
+		<form class="form-signin" action="personCreate.php" method="POST">
+			<h2 class="form-signin-heading text-center">Create new account</h2>
+
+			<h4>Name:</h4>
+			<input type="text" id="inputName" class="form-control" name="name"  required autofocus>
+
+			<h4>Password:</h4>
+			<input type="password" id="inputPassword" class="form-control" name="password"  required>
+
+			<h4>Email:</h4>
+			<input type="email" id="inputEmail" class="form-control" name="email"  required>
+
+			<h4>City:</h4>
+			<input type="text" id="inputCity" class="form-control" name="city"  required>
+
+			<h4>Description:</h4>
+			<input type="text" id="inputDescription" class="form-control" name="description"  required>
+
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Create Account</button>
+		</form>
+    </div> <!-- /container -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

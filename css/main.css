@@ -1,0 +1,11 @@
+.red{
+	color: red;
+}
+
+.not-resizable{
+	resize: vertical;
+}
+
+.checkbox-group {
+	margin-top: 20px;
+}
